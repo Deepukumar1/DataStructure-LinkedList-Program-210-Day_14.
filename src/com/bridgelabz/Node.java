@@ -2,6 +2,11 @@ package com.bridgelabz;
 
 public class Node<T> {
 	 private T data;
+
+	    public Node(T data) {
+	        this.data = data;
+	    }
+
 	    private Node <T> next;
 
 	    public T getData() {
@@ -19,5 +24,4 @@ public class Node<T> {
 	    public void setNext(Node<T> next) {
 	        this.next = next;
 	    }
-
 }
